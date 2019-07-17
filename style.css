@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-section{
+.griglia{
   display: flex;
   width: 800px;
   flex-wrap: wrap;
@@ -22,4 +22,11 @@ section{
 
 .green{
   background-color: green;
+}
+
+.redtext{
+  color: red;
+}
+.greentext{
+  color : green;
 }
