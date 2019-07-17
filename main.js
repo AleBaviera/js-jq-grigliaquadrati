@@ -1,9 +1,21 @@
-//ready
+$(document).ready(function(){
+
+
 
 console.log('ciao griglia');
 
-$('.quadrato').click().addClass('.green');
+$('.quadrato:not(.qui)').click(
+function (){
+  console.log('click');
+  $(this).addClass('green');
+});
 
 
 
-$('.qui').click().addClass('.red');
+$('.qui').click(function (){
+  console.log('click');
+  $(this).addClass('red');
+});
+
+
+});
