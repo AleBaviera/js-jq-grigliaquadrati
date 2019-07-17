@@ -27,8 +27,9 @@ $('.qui').click(function (){
   console.log('click');
   if($(this).addClass('red')){
     countred++;
-    console.log(countgreen);
+    console.log(countred);
     // countred.addClass('redtext');
+    // countred.style.color = 'red';
       elementored.innerHTML = countred;
 
   }
